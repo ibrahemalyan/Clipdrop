@@ -7,8 +7,6 @@ ClipDrop is a cross-platform application designed to facilitate seamless file an
 - **Cross-Platform Support**: Transfer files and clipboard content effortlessly between macOS and Windows.
 - **Clipboard Manager**: Keep track of your clipboard history and easily transfer content between devices.
 - **File Transfer**: Quickly send and receive files between devices on the same network.
-- **Configuration Management**: Easily configure and customize the app settings according to your preferences.
-- **Network Connectivity**: Ensure secure and reliable connections between devices for smooth transfers.
 
 ## Requirements
 
@@ -18,5 +16,33 @@ ClipDrop is a cross-platform application designed to facilitate seamless file an
 ## Installation
 
 1. Clone the repository:
-   
-   git clone https://github.com/yourusername/clipdrop.git
+    ```sh
+    git clone https://github.com/yourusername/clipdrop.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd clipdrop
+    ```
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+ Start the ClipDrop application:
+    ```sh
+    python clipdrop.py
+    ```
+
+## Modules
+
+- `clipboard_manager.py`: Manages clipboard content and history.
+- `clipdrop.py`: Main entry point of the application.
+- `config_manager.py`: Handles configuration settings.
+- `file_transfer.py`: Manages file transfers between devices.
+- `networking.py`: Manages network connections and communications.
+
+
+
+
