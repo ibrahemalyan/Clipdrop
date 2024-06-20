@@ -31,7 +31,7 @@ ClipDrop is a cross-platform application designed to facilitate seamless file an
 ## Usage
 
  Start the ClipDrop application:
-    ```sh
+    ```
     python clipdrop.py
     ```
 
